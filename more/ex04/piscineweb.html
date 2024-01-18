@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .title_format{
+            text-align: center;
+            /*font-family:cursive;*/
+            color: white;
+            margin:2rem 2rem .5rem;
+            text-shadow: 2px 2px 10px rgba(16, 78, 53, .6);
+        }
+        .sec1_container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 2rem;
+            border:2px solid pink;
+            padding: 2rem 1rem;
+            margin: 1rem 1rem;
+        }
+        .sec1_image_frame{
+            width: 20rem;
+            height: 20rem;
+        }
+        .image_sec1{
+            width: 100%;
+            height: 100%;
+            border-radius: .5rem;
+            object-fit: cover;
+            box-shadow: 10px 10px 5px rgba(255,105, 108, .6);
+        }
+        .end_line{
+            display:block;
+            margin-top: 2rem;
+            margin-bottom: .5rem;
+            border-top: .1rem dashed hotpink;
+        }
+        .sec2_container{
+            display: flex;
+            padding-right: 2rem;
+            justify-content: flex-end;
+        }
+        .footer_text{
+            font-family: monospace;
+            font-style: italic;
+            
+        }
+        .button_container{
+            display: flex;
+            border: .15rem hidden hotpink;
+            align-content: center;
+            border-radius: 2rem; /* Set border-radius to create an oval shape */
+            /*overflow: hidden; /* Hide content outside the oval shape */
+        }
+        .text_button{
+            color: hotpink;
+            font-family: cursive;
+            font-size: larger;
+            text-decoration: none; /* Remove underline from the text */
+            display: flex;
+            width: 100%; /* Occupy the entire width of the oval container */
+            height: 100%; /* Occupy the entire height of the oval container */
+
+        }
+    </style>
+</head>
+<body style="background-color: pink;">
+<div>
+<h1 class="title_format">Любимые мультфильмы Светы</h1>
+</div>
+<div class="sec1_container">
+    <div class="sec1_image_frame">
+        <a href="https://cs13.pikabu.monster/post_img/2021/03/14/9/161573595014426684.jpg">
+            <img class="image_sec1"
+            src="https://cs13.pikabu.monster/post_img/2021/03/14/9/161573595014426684.jpg"
+            alt="Photo_Vasilisa_cutting_her_hair"/>
+        </a>
+        <div style="color: pink; border: 0.4rem solid pink;"></div>
+        <div class="button_container">
+        <a class="text_button"href="https://www.youtube.com/watch?v=TBJoP14GXBQ">
+        Click to watch Vasilisa Mikulishna</a>
+        </div>
+    </div>
+    <div class="sec1_image_frame">
+        <a href="https://i.pinimg.com/736x/6f/ac/00/6fac00b052e71b02635990e9cb78f2e4.jpg">
+            <img class="image_sec1"
+            src="https://i.pinimg.com/736x/6f/ac/00/6fac00b052e71b02635990e9cb78f2e4.jpg"
+            alt="Photo_Princess_the_Frog"/>
+        </a>
+        <div style="color: pink; border: 0.4rem solid pink;"></div>
+        <div class="button_container">
+        <a class="text_button" href="https://www.youtube.com/watch?v=rAt_VfkGztE&t=204s">
+        Click to watch Princess the Frog</a>
+        </div>
+    </div>
+</div>
+<hr class="end_line">
+<div class="sec2_container">
+    <p class="footer_text" Hello>© stitovsk 2024</p>
+</div>
+</body>
+</html>
