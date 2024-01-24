@@ -1,0 +1,36 @@
+.table_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 2rem deeppink;
+    justify-content: center;
+}
+.head_container{
+    height: 8rem;
+    background-color: hotpink;
+    border: 2rem solid deeppink;
+}
+.head_text{
+    color: white;
+}
+.body_container{
+    height: 8rem;
+    background-color: pink;
+    border: 3rem solid deeppink;
+}
+.body_text{
+    color: plum;
+}
+table {
+    width: 70%; /* Set the width of the table */
+    /*border-collapse: collapse; /* Collapse table borders for a cleaner look */
+    margin: 2rem; /* Add some margin for spacing */
+}
+/*th, td {
+    padding: 10px;  Add padding to table cells for better spacing 
+    border: 1px solid #ddd;  Add a border to each table cell 
+    text-align: left; Align text to the left within cells 
+}
+th {
+    background-color: #f2f2f2; Set background color for header cells
+}*/
